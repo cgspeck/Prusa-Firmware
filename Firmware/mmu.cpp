@@ -1470,7 +1470,7 @@ static bool can_load()
             DEBUG_PUTCHAR('o');
         }
     }
-    if (filament_detected_count > steps - 4)
+    if (filament_detected_count > steps - 25)
     {
         DEBUG_PUTS_P(PSTR(" succeeded."));
         return true;
